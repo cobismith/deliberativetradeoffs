@@ -207,7 +207,9 @@ var rel = {
 
                 this.text.content = name;
                 this.text.characterStyle =  {
-                    fontSize: isActor ? 12 : 14,
+                    // Here's where to change the font size.
+                    // Left number is left column, right is right column.
+                    fontSize: isActor ? 14 : 14,
                     fillColor: rel.defaultTextColor,
                     font: rel.font
                 };
@@ -409,7 +411,18 @@ jQuery(document).ready(function() {
     /*
     * Then we set the height of our view
     */
-    view.viewSize = [1000, actorY + 0];
+
+    // Here's where to change the box height.
+    // Add an amount to the right hand side. I've made it try and take into account data size.
+    // It's not perfect though, so adjust the magicNumber. - Simon (Thanks Simon! -Cobi)
+    var magicNumber = 28;
+    var extraHeight = 0;
+    if (actorNames.length > showNames.length) {
+        extraHeight = actorNames.length * magicNumber;
+    } else {
+        extraHeight = showNames.length * magicNumber;
+    }
+    view.viewSize = [1000, actorY + extraHeight];
 
     /*
     * The last step is to draw each actor which draws the shows
