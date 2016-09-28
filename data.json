@@ -1,56 +1,14 @@
 var DATA = {
     
-    "Community Gardens": [
-        "CARE",
-        "Farm Support Association",
-        "Save the Children",
-        "Wan Smolbag", 
-        "GIZ"
+    "Transboundary": [
+        "Representation",
+        "Public",
+        "Upstream",
     ],
-    "Traditional Knowledge": [
-        "GIZ"
+    
+    "Local": [
+        "Inclusion",
+        "Organizational",
+        "Actionable",
     ],
-    "Raising Climate Awareness": [
-        "CARE",
-        "Save the Children",
-        "Wan Smolbag",
-         "VANGO"
-    ],
-    "Crop Diversification": [
-        "Farm Support Association",
-        "Save the Children"
-    ],
-    "Food Preservation": [
-        "Save the Children",
-        "ADRA"
-    ],
-    "WASH": [
-        "Wan Smolbag",
-        "CARE",
-        "Save the Children",
-        "ADRA",
-        "Oxfam",
-        "Live and Learn"
-    ],
-    "Community Planning": [
-        "CARE",
-        "Save the Children",
-        "Wan Smolbag"
-    ],
-    "Community Mapping": [
-        "CARE",
-        "Wan Smolbag"
-    ],
-    "Disaster Preparedness": [
-        "CARE",
-        "Save the Children",
-        "Red Cross"
-    ],
-    "Preventing Deforestation": [
-        "Live and Learn"
-    ],   
-    "Gender Inclusion in Policy": [
-        "CARE",
-        "Oxfam"
-    ],   
 };
