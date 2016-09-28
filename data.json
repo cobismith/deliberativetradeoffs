@@ -2,13 +2,13 @@ var DATA = {
     
     "Transboundary": [
         "Representation",
-        "Public",
-        "Upstream",
+        "Public ownership",
+        "Upstream outcomes",
     ],
     
     "Local": [
         "Inclusion",
-        "Organizational",
-        "Actionable",
+        "Organizational ownership",
+        "Actionable outcomes",
     ],
 };
