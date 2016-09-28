@@ -1,3 +1,3 @@
-# climatenetwork
-A network map of civil society climate adaptation activities in Vanuatu, based on information shared through the Vanuatu Climate Adaptation Network (VCAN). View the network map here: https://cobismith.github.io/climatenetwork/
+# Tradeoffs in deliberative public engagement with science
+This is a simple representation of tradeoffs in deliberative public engagement with science presented in my thesis: https://cobismith.github.io/deliberativetradeoffs/
 
