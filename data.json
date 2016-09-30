@@ -7,6 +7,7 @@ var DATA = {
     ],
         
     "Transboundary": [
+        "Inclusion",
         "Representation",
         "Public ownership",
         "Upstream outcomes",
