@@ -11,4 +11,16 @@ var DATA = {
         "Public ownership",
         "Upstream outcomes",
     ],
+   
+   "Specific group inclusion": [
+        "Inclusion",
+        "Organizational ownership",
+        "Upstream outcomes",
+    ],
+   
+   "Full inclusion": [
+        "Inclusion",
+        "Public ownership",
+        "Actionable outcomes",
+    ],
 };
